@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/xxqxxq1994/EC_Ecological-connectivity/blob/dfc043d06d7a1d3783b2424a9303952291095242/revused-plasmid-ARG.txt",
+  "commit": "dfc043d06d7a1d3783b2424a9303952291095242",
+  "retrieved": "2026-11-09",
+  "rows": 3522,
+  "unit": "plasmid record",
+  "filter_method": "exact marker token; recovery Selection=N for without-selection view",
+  "frontend": "self-contained HTML; no external services",
+  "canonical_sha256": "bc4e1f22f70209e72a323f6a0318a7350240ffd235e11e50f698d7a748c84cee",
+  "download_url": "https://raw.githubusercontent.com/xxqxxq1994/EC_Ecological-connectivity/dfc043d06d7a1d3783b2424a9303952291095242/revused-plasmid-ARG.txt",
+  "canonicalization": "UTF-8 without BOM; CRLF to LF; exactly one final LF"
+}

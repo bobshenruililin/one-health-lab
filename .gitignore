@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env*
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+data/source.tsv
+public/data/records.json
+artifacts/
+docs/MEETING_PITCH.md
+docs/WORKFLOW.md
+docs/GROUP_MESSAGE.md
+docs/One_Health_Meeting_Pitch.pdf

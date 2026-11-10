@@ -1,0 +1,15 @@
+{
+  "name": "one-health-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "data": "python3 tools/prepare_data.py",
+    "probes": "python3 tools/check_notebooks.py --workflow-only",
+    "notebooks": "python3 tools/check_notebooks.py",
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/evidence.test.mjs",
+    "verify": "npm run data && npm test && npm run notebooks && npm run build"
+  }
+}
