@@ -2,6 +2,8 @@
 
 The research, code and current decisions belong in this repository so a new collaborator can continue from evidence. Neither the current demo nor the shortlist is a commitment to a final product.
 
+Read [the companion guide](COMPANION_GUIDE.md) first for a plain-language walkthrough and the scientific, design and adoption perspectives we can consult. Explain the human situation and the actual behavior before describing technical capabilities.
+
 ## Opus — investigate and build
 
 > We're exploring an ambitious One Health challenge project. Read AGENTS.md, docs/TEAM_BRIEF.md, docs/DECISIONS.md and docs/STARTER_TASKS.md. Help us find a workflow where AI changes what a person can actually do. You have freedom to question the shortlist, connect mechanisms from older hackathons, and propose a stronger direction. Choose one consequential assumption, explain it through a concrete human scene, and make the smallest complete experiment that tests it. Build on a focused branch, preserve source attribution, run the relevant checks and leave an experiment note. Keep observed results distinct from proposals. We want something a teammate can understand, try and challenge.

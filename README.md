@@ -1,41 +1,40 @@
 # One Health Lab
 
-**A shared place to turn promising ideas into things we can understand, try and challenge.**
+**We are using small experiments to decide what would be worth building for the One Health challenge.**
 
-We are exploring a student project for the HKUMed SPH One Health Team Challenge 2026–27. Its themes are antimicrobial resistance, emerging infectious diseases / zoonotic risks, and climate change and health. We have not selected a final product.
+Right now this repository holds one working research demo, three small fictional workflow examples, and research on possible projects. The team has not selected a final product.
 
-Our starting question: **where could today's AI turn an older good idea into a useful, complete experience?** Alongside that, we are investigating what environmental microbial data can actually tell us—and what it cannot.
+## Try one thing: does changing the data change the story?
 
-## Start with a scene
+Imagine finding the same resistance-related gene label in bacteria from sewage, farm wastewater and river water. What does that tell us—and what would we need to know next?
 
-| Direction | A change someone could experience | Theme |
+Our **Follow the Resistance** demo lets you inspect records from a published Hong Kong study, count a selected gene label, and change which laboratory records are included. The percentage changes with that choice. This helps us ask better questions about the evidence. It does not show where someone caught an infection or rank places by danger.
+
+The easiest entry is [the data notebook in Colab](https://colab.research.google.com/github/bobshenruililin/one-health-lab/blob/main/notebooks/One_Health_Data_Exploration.ipynb). A notebook is a document with explanations and small calculations you can run. Click ▶ beside the first code block, wait for its result, then run the next blocks in order. Compare the tables under **Ask one exact question** and **Change the recovery method**. The [companion guide](docs/COMPANION_GUIDE.md) explains the biology, initial setup and what you should see. You can also read that guide without running anything.
+
+This GitHub link is a collection of files, not a hosted demo website. The browser version is built locally using the instructions below.
+
+## What exists, and what is still an idea?
+
+| Material | What it does today | What remains open |
 |---|---|---|
-| Prescription questions | A confusing instruction becomes a pharmacist-confirmed answer and an understood plan | AMR |
-| Cooling access | A venue listing becomes a successful arrival through a verified, usable entrance | Climate and health |
-| Observation to inspection | An incomplete report becomes an actionable task with evidence of completion | Emerging infection / zoonotic risks |
-| Clinic audit | Scattered records become an auditable environmental decision | Climate and health |
-| Food rescue | Mismatched offers become feasible collections reviewed by an operator | Climate and health; link needs substantiation |
-| AMR evidence desk | Studies that look comparable become a defensible comparison with visible limits | AMR |
+| Hong Kong data notebook and explorer | Inspect real published records and calculate descriptive counts | Who needs this, what decision it helps, and whether the experience improves understanding |
+| Three fictional workflow examples | Show that access needs change a venue choice, unconfirmed instructions stay in review, and assigned work is not automatically complete | Real-world inputs, AI integration, partner review and user benefit |
+| Historical-project research | Explain twelve precedents and six possible adaptations | Which problem the team should pursue |
 
-These are hypotheses, not deployed services. [Read the team brief](docs/TEAM_BRIEF.md) for the human situations, historical precedents, dependencies and first tests. The [idea reservoir](docs/IDEA_RESERVOIR.md) covers twelve projects from HackMIT, MIT Hacking Medicine and other health hackathons.
+There are two open routes: **use environmental data to answer a useful question**, or **reimagine an older health-hackathon idea with today's AI**. We are putting more exploration into the second route. The existing demo does not commit us to the first.
 
-## Read or experiment without setup
+MetaSUB is an environmental sequencing consortium, separate from Meta the company. Our working demo uses a different Hong Kong E. coli dataset. It has no trained AI model or live surveillance feed.
 
-- [Open the team notebook in Colab](https://colab.research.google.com/github/bobshenruililin/one-health-lab/blob/main/notebooks/One_Health_Team_Lab.ipynb): six directions, three small synthetic workflow probes, then optional real-data analysis.
-- [Open only the data analysis in Colab](https://colab.research.google.com/github/bobshenruililin/one-health-lab/blob/main/notebooks/One_Health_Data_Exploration.ipynb).
-- [View the shared Drive folder](https://drive.google.com/drive/folders/1GeXOX-W_pUi-rAGG5l2oRvxyRDLL3g82). The repository is the canonical source; personal Colab copies are independent.
+## Bring an unfinished idea
 
-Roughly 70% of exploration is directed toward reimagined workflows, 30% toward MetaSUB and other environmental data. These are our working priorities, not official judging weights. **MetaSUB is a research consortium, separate from Meta the technology company.** The implemented analysis uses a different Hong Kong E. coli dataset.
+You can start with an observation, an analogy or “I wish this were possible.” We will turn it into a concrete situation, identify what changes for someone, bring in relevant scientific and practical perspectives, then implement a test we can inspect together.
 
-## What already runs
+[The companion guide](docs/COMPANION_GUIDE.md) establishes that conversation. [The team brief](docs/TEAM_BRIEF.md) develops the six directions; [the idea reservoir](docs/IDEA_RESERVOIR.md) traces their ancestors. For Opus or Fable, start with [AGENTS.md](AGENTS.md) and [handoff prompts](docs/HANDOFF.md).
 
-**Follow the Resistance** is an evidence-explorer experiment. It reads a published Hong Kong plasmid table, lets a visitor inspect three example records, compare six marker annotations and change the laboratory-recovery filter. A schematic city illustration connects the source categories. It is one artifact for discussion, not the selected team product.
+## Build or contribute
 
-The notebooks reproduce the counts and demonstrate three workflow requirements: personal access needs change a shortlist; an unconfirmed prescription stays in review; an assigned inspection is not counted as completed. These are deterministic demonstrations. There is no trained model, live surveillance or measured health benefit.
-
-### Run locally
-
-Use **Node 22+** and **Python 3.10+**. No third-party packages or API keys are needed.
+Use Node 22+ and Python 3.10+. No third-party runtime packages or API keys are needed.
 
 ```sh
 git clone https://github.com/bobshenruililin/one-health-lab.git
@@ -43,24 +42,8 @@ cd one-health-lab
 npm run verify
 ```
 
-This downloads the pinned upstream table when needed, verifies its checksum, runs the evidence tests and both notebooks, and builds `dist/index.html`. Open that file in a browser. Keep `dist/data/` beside it for the source-table download link. The generated page works offline after preparation.
+This prepares the pinned dataset, runs eight evidence tests and both notebooks, and builds `dist/index.html`. Open it in a browser. See [data preparation](data/README.md) if downloading fails. Generated data and builds are excluded from git.
 
-To run only the three synthetic probes, without a download:
+`npm run probes` runs only the three fictional examples without a download. [The team notebook](https://colab.research.google.com/github/bobshenruililin/one-health-lab/blob/main/notebooks/One_Health_Team_Lab.ipynb) combines the project research and all experiments. [The Drive folder](https://drive.google.com/drive/folders/1GeXOX-W_pUi-rAGG5l2oRvxyRDLL3g82) is also available; personal copies do not automatically update this repository.
 
-```sh
-npm run probes
-```
-
-Individual commands: `npm run data`, `npm test`, `npm run notebooks`, `npm run build`. If the source download fails, use the [offline preparation instructions](data/README.md). Raw and derived dataset caches are excluded from git; source attribution and the exact version are in [the provenance manifest](data/provenance.json).
-
-## Join the work
-
-Start with [starter tasks](docs/STARTER_TASKS.md) or bring a better question. A useful contribution can be a source, an observation, a counterexample, a sketch or an experiment. [CONTRIBUTING.md](CONTRIBUTING.md) explains branches, pull requests and notebook copies.
-
-For **Opus, Fable or another agent**, read [AGENTS.md](AGENTS.md), then [the handoff prompts](docs/HANDOFF.md). Creative freedom includes challenging the shortlist. Leave something a teammate can try, its actual result, and the next decision.
-
-## Evidence and current limits
-
-The table contains 3,522 plasmid records from 942 isolate IDs. Shared marker annotations do not establish transmission, direction or clinical risk. Counts describe the released records; they are not population prevalence estimates. Laboratory selection and denominators remain visible in every comparison.
-
-The official invitation establishes the three themes. The full judging rubric remains unverified. Historical project success does not validate our adaptations. See [verification notes](docs/VERIFICATION.md), [decisions](docs/DECISIONS.md), [sources](docs/SOURCES.json) and [attribution](NOTICE.md).
+Use [CONTRIBUTING.md](CONTRIBUTING.md) and [starter tasks](docs/STARTER_TASKS.md). See [verification](docs/VERIFICATION.md), [decisions](docs/DECISIONS.md), [sources](docs/SOURCES.json) and [attribution](NOTICE.md) for the evidence and current limits. The full official judging rubric remains unverified.
