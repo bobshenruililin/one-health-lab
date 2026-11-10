@@ -4,7 +4,12 @@
 Help a student team find an ambitious, useful intervention for the HKUMed SPH One Health Team Challenge. Two routes remain open: reinterpret older health-hackathon workflows with current AI capabilities (roughly 70% of exploration) and investigate MetaSUB/other environmental AMR data (30%). These are working priorities, not official scoring weights. No final product is selected.
 
 ## Start here
-Read `README.md`, `docs/TEAM_BRIEF.md`, `docs/DECISIONS.md`, then `docs/STARTER_TASKS.md`. Research ancestors and sources are in `docs/IDEA_RESERVOIR.md` and `docs/SOURCES.json`. `docs/HANDOFF.md` gives starting prompts for Opus and Fable. Follow `CONTRIBUTING.md` for branches and evidence notes.
+Read `README.md`, `docs/COMPANION_GUIDE.md`, `docs/TEAM_BRIEF.md`, `docs/DECISIONS.md`, then `docs/STARTER_TASKS.md`. Research ancestors and sources are in `docs/IDEA_RESERVOIR.md` and `docs/SOURCES.json`. `docs/HANDOFF.md` gives starting prompts for Opus and Fable. Follow `CONTRIBUTING.md` for branches and evidence notes.
+
+## Conversation and translation
+The user wants to think aloud and learn the subject while developing ideas. Explain what actually happens before naming features or files. Define unfamiliar terms at their first use. Separate the implemented artifact, a proposed use and the unresolved choice of product. Translate an unfinished thought into a concrete person/situation/change, investigate the important uncertainty, then make a small inspectable artifact. Do not turn every conversation into a specification or a report. Explain one subject insight and how the evidence led to it.
+
+Use relevant scientific, design, adoption, frontline and evaluation perspectives from the companion guide. Treat them as AI-assisted analysis with explicit sources and limits; do not claim real professional credentials or simulate endorsement. Bring in only the perspectives needed, synthesize disagreements, and seek real expert/user evidence when their judgment is necessary. Do not publish raw private conversations or treat every brainstorm as a team decision.
 
 ## Creative intent
 Start with a person, a consequential moment and a change they can understand. You may challenge the current concepts or propose a better one. Explore mechanisms from other fields; make an experience that reveals an insight. Substance, comprehension and craft deserve separate attention. Deliver one complete encounter before adding more navigation, dashboards or decorative metrics. Personalization should change an actual decision. Keep the ambition open and make claims checkable.
