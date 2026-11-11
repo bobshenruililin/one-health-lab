@@ -26,6 +26,8 @@ There are two open routes: **use environmental data to answer a useful question*
 
 MetaSUB is an environmental sequencing consortium, separate from Meta the company. Our working demo uses a different Hong Kong E. coli dataset. It has no trained AI model or live surveillance feed.
 
+New for discussion: the [team's MTR-air campaign proposal](contributions/2026-11-11-metasub-hk-proposal.md) and a [source-backed review with a small learning experiment](contributions/2026-11-11-metasub-review.md). These keep the data route open without selecting it or replacing the current demo.
+
 ## Bring an unfinished idea
 
 You can start with an observation, an analogy or “I wish this were possible.” We will turn it into a concrete situation, identify what changes for someone, bring in relevant scientific and practical perspectives, then implement a test we can inspect together.
@@ -46,4 +48,4 @@ This prepares the pinned dataset, runs eight evidence tests and both notebooks, 
 
 `npm run probes` runs only the three fictional examples without a download. [The team notebook](https://colab.research.google.com/github/bobshenruililin/one-health-lab/blob/main/notebooks/One_Health_Team_Lab.ipynb) combines the project research and all experiments. [The Drive folder](https://drive.google.com/drive/folders/1GeXOX-W_pUi-rAGG5l2oRvxyRDLL3g82) is also available; personal copies do not automatically update this repository.
 
-Use [CONTRIBUTING.md](CONTRIBUTING.md) and [starter tasks](docs/STARTER_TASKS.md). See [verification](docs/VERIFICATION.md), [decisions](docs/DECISIONS.md), [sources](docs/SOURCES.json) and [attribution](NOTICE.md) for the evidence and current limits. The full official judging rubric remains unverified.
+Use [CONTRIBUTING.md](CONTRIBUTING.md) and [starter tasks](docs/STARTER_TASKS.md). See [verification](docs/VERIFICATION.md), [decisions](docs/DECISIONS.md), [sources](docs/SOURCES.json) and [attribution](NOTICE.md) for the evidence and current limits. [Official challenge requirements and judging weights](docs/CHALLENGE_REQUIREMENTS.md) were checked on 11 November 2026.

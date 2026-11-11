@@ -61,7 +61,7 @@ MetaSUB is the Metagenomics and Metadesign of Subways and Urban Biomes consortiu
 **What is built:** the earlier Follow the Resistance evidence explorer and five executed analysis cells. **What remains proposed:** a complete learning intervention, a research-assistant agent, model training, current surveillance and health impact. We retain the demo as an experiment, not the selected team project.
 
 ## How we compare ideas
-The invitation names three themes and real-world solutions/awareness. The full judging rubric could not be retrieved; the criteria below are OUR decision framework, not official weights. Organizer events explicitly discuss environmental AMR, human/veterinary antibiotic use and practical implementation: https://s.sph.hku.hk/theonehealthhub/events.html . This supports topic relevance, not a prediction about judges.
+Update, 11 November: the official campaign requirements and judging weights have now been checked: https://github.com/bobshenruililin/one-health-lab/blob/main/docs/CHALLENGE_REQUIREMENTS.md . The criteria below remain OUR decision framework, not official scores. The challenge requires a community-facing campaign or activity; a research or service prototype alone does not establish fit. Organizer events explicitly discuss environmental AMR, human/veterinary antibiotic use and practical implementation: https://s.sph.hku.hk/theonehealthhub/events.html . This supports topic relevance, not a prediction about judges.
 
 | Candidate | Theme fit | Observable first outcome | Strongest dependency | Current judgment |
 |---|---|---|---|---|
