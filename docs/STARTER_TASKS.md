@@ -10,6 +10,6 @@ These are unassigned invitations, not a fixed roadmap. A better question is welc
 | AMR comparability | Thirty manually reviewed metadata records across two sources | Find incompatible specimen, date, recovery method and denominator; compare automated extraction with the manual baseline | Inspect reuse terms and obtain domain review |
 | One complete learning encounter | A short playable or reviewable scene built around one insight | A newcomer can explain what changed and what the evidence cannot establish | Real audience feedback, not only model critique |
 | Explorer visual review | Desktop/mobile walkthrough, keyboard checks and an issue list with screenshots | Filters, specimen switches, exports and dialogs work; text is legible | A browser that can open the built local file |
-| Challenge criteria | A dated copy or link to the official rubric and submission instructions | Distinguish confirmed rules from our decision framework | Official organizer material |
+| Challenge fit | Compare a proposed audience, encounter and evaluation with the [checked official requirements](CHALLENGE_REQUIREMENTS.md) | Distinguish official weights from our judgments; recheck deadlines and unresolved AI/pitch rules before acting | Current organiser material; initial page review completed 11 November |
 
 Before building a larger agent, identify its input, a consequential action, the human who can approve that action and a way to verify completion. Benchmark against the simplest credible method. Do not implement all six candidate products at once.

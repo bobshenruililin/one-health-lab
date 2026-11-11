@@ -17,3 +17,11 @@ The interface has not completed a browser layout, keyboard or click-through revi
 ## Companion-guide revision
 
 The README and companion guide received an independent AI heuristic review and a focused recheck for newcomer orientation. Revisions explain the unit being counted, laboratory selection, how to begin in Colab, and the distinction between working demonstrations and proposed uses. This was a document review, not a human comprehension test. The six fractions in the guide were recalculated from the pinned local records; Markdown links and the changed public text were checked. Executable code was unchanged.
+
+## Proposal review — 11 November 2026
+
+PR #2 adds an attributed proposal synopsis, a separate source-backed review, official challenge requirements and links from existing guidance. The team notebook's rubric paragraph is updated; executable cells and application code are unchanged. No team product choice or task assignment is made.
+
+`npm run verify` passed locally on Node 24.22.1 and Python 3.12.14: pinned upstream download and checksum, 3,522 records, eight evidence tests, all 13 notebook code cells and standalone build. Changed Markdown's local file links and `git diff --check` were checked. These checks protect the existing experiments; they do not validate the proposed air-metagenomics work or campaign. No new browser walkthrough or human comprehension test was performed.
+
+The [review note](../contributions/2026-11-11-metasub-review.md) records source-audit scope and remaining scientific checks. The original draft head's GitHub Actions run passed; check the PR's latest commit status for the amended review rather than treating that earlier result as final CI.
